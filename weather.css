@@ -1,0 +1,48 @@
+body, html{    
+  height: 100%;}
+
+.bg { 
+    /* The image used */
+    background-image: url("https://media.gettyimages.com/photos/misty-summer-mountain-hills-landscape-picture-id509636590?b=1&k=6&m=509636590&s=612x612&w=0&h=9A_zvSYQUC0ZGZpXzO66z-e_SInWMOdqhN-TRvIUhZw=");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#weatherHeader {
+  margin:20px;
+  color:#6000FF;
+  font-family: 'Lobster', cursive;
+}
+#tempBox {
+  background-color: black;
+}
+
+.circle {
+    background: red;
+    border-radius: 200px;
+    color: white;
+    height: 300px;
+    font-weight: bold;
+    width: 300px;
+    display: table;
+    margin: 20px auto;
+}
+
+#theTemp {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#myBtn {
+  margin-right:80px;
+  background-color: #6000FF;
+  border-color: #6000FF;
+  color: white;
+  
+}
